@@ -34,4 +34,4 @@ ckfhblmjmpglpaoipnbfocpn.AO-J1OySt2RxM40e6eWsk7wPjOnobH9cazp5SxJvX7gNKMSADLzv8Ht
 
 
 AndroidLibrary提交到JCenter仓库：
-gradlew clean build bintrayUpload -PbintrayUser=tiyao -PbintrayKey=015f6d745d01186174f757bbc40c185e9d8e9c06 -PdryRun=false
+gradlew clean build bintrayUpload -PbintrayUser=tiyoogame -PbintrayKey=ea4252932bb8fafcab885ca38ca35f9ae5f3a9e6 -PdryRun=false

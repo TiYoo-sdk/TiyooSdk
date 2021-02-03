@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000</color>
+    <color name="blue">#1877F2</color>
+    <color name="blue3c">#F44336</color>
+    <color name="gray_b8">#B8B8B8</color>
+    <color name="gray_c7">#800C0C0C</color>
+    <color name="gray_c9">#CAC9C9</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFF</color>
+    <color name="yellow">#fdf5d1</color>
+    <color name="pink">#f07cb2</color>
+
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <dimen name="dp_120">120dp</dimen>
+    <dimen name="dp_150">150dp</dimen>
+    <dimen name="dp_260">260dp</dimen>
+    <dimen name="dp_300">300dp</dimen>
+    <dimen name="dp_330">330dp</dimen>
+    <dimen name="dp_350">350dp</dimen>
+
+    <dimen name="sp_10">10sp</dimen>
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+    <dimen name="sp_24">24sp</dimen>
+
+    <string name="title_login">Sign In</string>
+    <string name="title_logout">Sign Out</string>
+    <string name="login_facebook">Sign in with FaceBook</string>
+    <string name="login_google">Sign in with Google</string>
+
+    <style name="MyTranslucentTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

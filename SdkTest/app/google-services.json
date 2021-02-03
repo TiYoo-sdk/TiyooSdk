@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:122454707398:android:73efa5bd2837a846995bc7",
         "android_client_info": {
-          "package_name": "com.tiyaogame.sdktest.gp"
+          "package_name": "com.tiyoo.sdktest"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "122454707398-5gvrj4e231bd0c0bi19cv19su348131o.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.tiyaogame.sdktest.gp",
+            "package_name": "com.tiyoo.sdktest",
             "certificate_hash": "04b3fef84a18dc74e2d3735893e66a5e07c2b908"
           }
         },
@@ -25,7 +25,7 @@
           "client_id": "122454707398-5krdrjabvgpap5rlv9o0u6nvgqm1ul5h.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.tiyaogame.sdktest.gp",
+            "package_name": "com.tiyoo.sdktest",
             "certificate_hash": "8c1583e3c937fdf6cf4bef55b5ad2eb24283797e"
           }
         },
