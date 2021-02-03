@@ -1,0 +1,4 @@
+include ':tenjin'
+include ':app:sdk'
+include ':app'
+rootProject.name = "gp"

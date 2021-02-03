@@ -83,3 +83,5 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+sdkrecord/jdk-8u261-windows-x64.exe
+sdkrecord/Win64OpenSSL-1_1_1i.exe

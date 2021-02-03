@@ -1,0 +1,37 @@
+https://sub.ssr.ac/link/UpaxnrGqNtZhrMRv?mu=1
+
+
+04:B3:FE:F8:4A:18:DC:74:E2:D3:73:58:93:E6:6A:5E:07:C2:B9:08
+
+测试：
+keytool -exportcert -alias androiddebugkey -keystore "C:\Users\Administrator\.android\debug.keystore" | openssl sha1 -binary | openssl base64
+android
+
+BLP++EoY3HTi03NYk+ZqXgfCuQg=
+
+
+
+
+
+正式：
+keytool -exportcert -alias TiYaoSdkDemo -keystore E:\sdkrecord\TiyaoSdkDemoGp.jks | openssl sha1 -binary | openssl base64
+
+halTH6vIbblg/ThJiK2l3kwEKGE=
+
+sha1值
+keytool -list -v -alias TiyaoSdkDemoGp -keystore E:\sdkrecord\TiyaoSdkDemoGp.jks
+8C:15:83:E3:C9:37:FD:F6:CF:4B:EF:55:B5:AD:2E:B2:42:83:79:7E
+
+
+证书密码：123456
+别名：TiyaoSdkDemoGp
+
+
+
+fbid:  239423520914075
+
+ckfhblmjmpglpaoipnbfocpn.AO-J1OySt2RxM40e6eWsk7wPjOnobH9cazp5SxJvX7gNKMSADLzv8Ht7dX0bNvQ3_NmYGqFPxyBm5dGm7xV79e8KCxC8wnXVEaw1Hlc_aNDU2pjRZgCAwwM
+
+
+AndroidLibrary提交到JCenter仓库：
+gradlew clean build bintrayUpload -PbintrayUser=tiyao -PbintrayKey=015f6d745d01186174f757bbc40c185e9d8e9c06 -PdryRun=false
