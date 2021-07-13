@@ -1,7 +1,10 @@
 plugins {
     id 'com.android.library'
 }
-apply plugin: 'com.github.panpf.bintray-publish'
+
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.Y8530199yxm'
+
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
@@ -57,12 +60,4 @@ task makeJar(type: Copy) {
 }
 makeJar.dependsOn(build)
 
-publish {
-    userOrg = 'tiyoogame'                 //注册的用户名
-    repoName=' tiyoosdk'       // 中央库名称
-    groupId = 'com.tiyoo'             //compile引用时的第1部分 groupId
-    artifactId = 'sdk'             //compile引用时的第2部分 项目包名
-    publishVersion = '1.0.0'          //compil'更新webView'e引用时的第3部分 版本号
-    desc = "fuck!"
-    website = 'https://github.com/TiYoo-sdk/TiyooSdk' //github 上的托管代码
-}
+

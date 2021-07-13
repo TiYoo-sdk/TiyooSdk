@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">tiyaogamesdktest</string>
-    <string name="facebook_app_id">239423520914075</string>
-    <string name="fb_login_protocol_scheme">fb239423520914075</string>
-    <string name="tenjin_apikey">W5MRYDORTU2BOKESVJZDHSCV23P8TNUN</string>//这个值不用改
-</resources>

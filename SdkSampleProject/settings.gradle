@@ -1,3 +1,0 @@
-include ':tenjin'
-include ':app'
-rootProject.name = "tiyaogamesdktest"
